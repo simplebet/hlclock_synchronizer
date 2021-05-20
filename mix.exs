@@ -28,7 +28,8 @@ defmodule HLClockSynchronizer.MixProject do
   defp deps do
     [
       {:hlclock, "~> 1.0"},
-      {:phoenix_pubsub, "~> 2.0"}
+      {:phoenix_pubsub, "~> 2.0"},
+      {:ex_doc, "~> 0.24.2", only: :dev, runtime: false}
     ]
   end
 
