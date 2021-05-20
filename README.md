@@ -18,7 +18,7 @@ end
 ```
 
 ## Usage
-```
+```elixir
 # In your supervision tree, add this as a child spec
 # Note that you can use any HLClock clock, here I use HLCID.Clock
 
