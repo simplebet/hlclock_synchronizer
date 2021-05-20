@@ -10,7 +10,7 @@ defmodule HLClockSynchronizer.MixProject do
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      name: :hlclock_syncrhonizer,
+      name: :hlclock_synchronizer,
       package: package(),
       description: description(),
       docs: docs()
@@ -41,7 +41,7 @@ defmodule HLClockSynchronizer.MixProject do
 
   defp package do
     [
-      name: "hlclock_syncrhonizer",
+      name: "hlclock_synchronizer",
       maintainers: ["Dave Lucia", "Bryan Naegele"],
       licenses: ["Apache 2.0"],
       links: %{"GitHub" => "https://github.com/simplebet/hlclock_synchronizer"}
